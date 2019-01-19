@@ -1,5 +1,5 @@
 resolvers += Resolver.sonatypeRepo("releases")
-addCompilerPlugin("org.spire-math" %% "kind-projector" % "0.9.8")
+addCompilerPlugin("org.spire-math" %% "kind-projector" % "0.9.9")
 
 val fs2Version        = "1.0.2"
 val catsVersion       = "1.5.0"
