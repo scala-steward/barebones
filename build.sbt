@@ -2,7 +2,7 @@ resolvers += Resolver.sonatypeRepo("releases")
 addCompilerPlugin("org.spire-math" %% "kind-projector" % "0.9.9")
 
 val fs2Version        = "1.0.3"
-val catsVersion       = "1.5.0"
+val catsVersion       = "1.6.0"
 val catsEffectVersion = "1.2.0"
 
 lazy val root = (project in file(".")).
