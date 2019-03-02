@@ -6,20 +6,25 @@ ThisBuild / organization := "com.tomwadeson"
 ThisBuild / version      := "0.1.0-SNAPSHOT"
 ThisBuild / scalaVersion := "2.12.8"
 
-val fs2Version        = "1.0.4"
-val catsVersion       = "1.6.0"
-val catsEffectVersion = "1.2.0"
+val fs2Version                 = "1.0.4"
+val catsVersion                = "1.6.0"
+val catsEffectVersion          = "1.2.0"
+val scalatestVersion           = "3.0.5"
+val scalacheckVersion          = "1.14.0"
+val scalacheckShapelessVersion = "1.2.0-1"
 
 lazy val root = (project in file(".")).
   settings(
-
     name := "barebones",
 
     libraryDependencies ++= Seq(
-      "co.fs2"        %% "fs2-core"    % fs2Version,
-      "co.fs2"        %% "fs2-io"      % fs2Version,
-      "org.typelevel" %% "cats-core"   % catsVersion,
-      "org.typelevel" %% "cats-effect" % catsEffectVersion
+      "co.fs2"                     %% "fs2-core"                  % fs2Version,
+      "co.fs2"                     %% "fs2-io"                    % fs2Version,
+      "org.typelevel"              %% "cats-core"                 % catsVersion,
+      "org.typelevel"              %% "cats-effect"               % catsEffectVersion,
+      "org.scalatest"              %% "scalatest"                 % scalatestVersion           % Test,
+      "org.scalacheck"             %% "scalacheck"                % scalacheckVersion          % Test,
+      "com.github.alexarchambault" %% "scalacheck-shapeless_1.14" % scalacheckShapelessVersion % Test
     ),
 
     scalacOptions ++= Seq(
