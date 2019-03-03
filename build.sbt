@@ -9,7 +9,7 @@ ThisBuild / scalaVersion := "2.12.8"
 val fs2Version                 = "1.0.4"
 val catsVersion                = "1.6.0"
 val catsEffectVersion          = "1.2.0"
-val scalatestVersion           = "3.0.5"
+val scalatestVersion           = "3.0.6"
 val scalacheckVersion          = "1.14.0"
 val scalacheckShapelessVersion = "1.2.0-1"
 
