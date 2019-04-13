@@ -1,6 +1,6 @@
 ThisBuild / resolvers += Resolver.sonatypeRepo("releases")
 ThisBuild / libraryDependencies += compilerPlugin("org.spire-math" %% "kind-projector" % "0.9.9")
-ThisBuild / libraryDependencies += compilerPlugin("com.olegpy" %% "better-monadic-for" % "0.3.0-M4")
+ThisBuild / libraryDependencies += compilerPlugin("com.olegpy" %% "better-monadic-for" % "0.3.0")
 
 ThisBuild / organization := "com.tomwadeson"
 ThisBuild / version      := "0.1.0-SNAPSHOT"
