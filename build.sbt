@@ -11,7 +11,7 @@ val catsVersion                = "1.6.0"
 val catsEffectVersion          = "1.2.0"
 val scalatestVersion           = "3.0.5"
 val scalacheckVersion          = "1.14.0"
-val scalacheckShapelessVersion = "1.2.0-1"
+val scalacheckShapelessVersion = "1.2.2"
 
 lazy val root = (project in file(".")).
   settings(
