@@ -6,7 +6,7 @@ ThisBuild / organization := "com.tomwadeson"
 ThisBuild / version      := "0.1.0-SNAPSHOT"
 ThisBuild / scalaVersion := "2.12.8"
 
-val fs2Version                 = "1.0.4"
+val fs2Version                 = "1.0.5"
 val catsVersion                = "1.6.0"
 val catsEffectVersion          = "1.2.0"
 val scalatestVersion           = "3.0.5"
